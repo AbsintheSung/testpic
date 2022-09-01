@@ -1,0 +1,64 @@
+
+        /* .section1{
+            width: 100%;  
+        } */
+        .section1{
+            position: absolute;
+            width: 100%;
+        }
+        .show{
+            margin: 0 auto;
+            /* border: 4px solid red; */
+            width:820px;
+            height: 400px;
+            position: relative;
+            overflow: hidden;
+        }
+        .picList{
+            /* border: 2px solid green; */
+            position: absolute;
+            display: flex;
+            /* width: 3280px; */
+            /* left:-1640px; */
+        }
+        .pic{
+            margin: 0 10px;
+        }
+        .picList img{    
+            height: 400px;
+            width: 800px;
+            
+        }
+
+        /* button */
+        .div_btn{
+            position: relative;
+            margin: 0 auto;
+            top:-400px;
+            /* border: 3px solid rgb(60, 43, 134); */
+            width:820px;
+            height: 400px;
+        }
+        .btn_left{
+            border: transparent;
+            width: 50px;
+            height: 50px;
+            left:-35px;
+            position: absolute;
+            top:50%;
+            transform: translateY(-50%);
+            background-color: transparent;
+            border-radius:50%;
+            font-size: 50px;
+        }
+        .btn_right{
+            border: transparent;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            right:-35px;
+            top:50%;
+            transform: translateY(-50%);
+            background-color: transparent;
+            font-size: 50px;
+        }

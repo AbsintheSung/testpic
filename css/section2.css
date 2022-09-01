@@ -1,0 +1,70 @@
+/* .section2{
+    width: 100%;
+} */
+.section2{
+    position: absolute;
+    width: 100%;
+    top:450px;
+}
+/* 210*320 */
+.movie_pic{
+    width: 210px;
+    height: 320px;
+}
+.moveList{
+    margin: 0 auto;
+    padding: 10px 0;
+    /* border: 2px solid rgb(4, 70, 212); */
+    width:920px;
+    height: 400px;
+    /* display: flex; */
+    overflow: hidden;
+    
+}
+.list1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(0px);
+}
+
+.list1 div{
+    margin: 0 10px;
+}
+.point{
+    margin: 0 auto;
+    width: 120px;
+    height: 20px;
+    /* border: 2px solid black; */
+    text-align: center;
+}
+.point a{
+    display: inline-block;
+    /* border: 2px solid red; */
+    background-color: blueviolet;
+    margin: 3px 2px;
+    width: 15px;
+    height: 15px;
+   
+}
+.point a:hover{
+    background-color: red;
+   
+}
+.List{
+    display: flex;
+    width: 3680px;
+    transform: translateX(0);
+    transition: .5s;
+}
+.list1 div a img:hover{
+    transform: translateY(-20px);
+    transition: .5s;
+}
+.movie_text{
+    text-align: center;
+}
+.movie_text p:first-child{
+    color: red;
+}
+
