@@ -16,7 +16,8 @@
     <?php
     session_start();
     $userAccount = $_SESSION['Account'];
-    echo "<h1>歡迎，".$userAccount."</h1>"; 
+    echo "<h1>歡迎，".$userAccount."</h1>";
+    echo "<a href='./loginout.php'>登出</a>";
     ?>
 
 </body>
